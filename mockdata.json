@@ -1,0 +1,40 @@
+{
+  "user": { "name": "User Name", "plan": "free", "avatar": "U" },
+  "topRecommendations": [
+    { "id": 1, "title": "Dumk Wealr",        "artist": "Redcle",       "duration": "3:24", "bg": "linear-gradient(155deg,#111 0%,#2a2a2a 100%)",          "label": "D" },
+    { "id": 2, "title": "Dawlingota Sans...", "artist": "Toelflums",    "duration": "4:01", "bg": "linear-gradient(155deg,#7a1010 0%,#c0392b 100%)",        "label": "D" },
+    { "id": 3, "title": "Bloaver",            "artist": "The Second",   "duration": "3:55", "bg": "linear-gradient(155deg,#c4a882 0%,#e0cab0 100%)",        "label": "B" },
+    { "id": 4, "title": "Samiracind the",     "artist": "Sleephone",    "duration": "4:18", "bg": "linear-gradient(155deg,#222 0%,#444 100%)",              "label": "S" },
+    { "id": 5, "title": "Date Milly",         "artist": "Doctor",       "duration": "3:42", "bg": "linear-gradient(155deg,#080808 0%,#181818 100%)",        "label": "DP" },
+    { "id": 6, "title": "Yarpa Brdan",        "artist": "Chaii Wenf",   "duration": "5:10", "bg": "linear-gradient(155deg,#181818 0%,#2e2e2e 100%)",        "label": "Y" }
+  ],
+  "newReleases": [
+    { "id": 7,  "album": "Newly Released...", "artist": "Catalog data", "year": 2025, "tracks": 12, "bg": "linear-gradient(145deg,#f5c2d0 0%,#e8a0bf 50%,#c070a0 100%)" },
+    { "id": 8,  "album": "Tirilly Roast",     "artist": "Album",        "year": 2025, "tracks": 9,  "bg": "linear-gradient(145deg,#6e0f08 0%,#b03020 55%,#6e1008 100%)" },
+    { "id": 9,  "album": "Jean Noider",       "artist": "Artist",       "year": 2025, "tracks": 10, "bg": "linear-gradient(145deg,#b89050 0%,#d0a860 55%,#907030 100%)" },
+    { "id": 10, "album": "Jan Gron",          "artist": "Artist",       "year": 2025, "tracks": 11, "bg": "linear-gradient(145deg,#104a6a 0%,#1a6a8a 55%,#103a5a 100%)" }
+  ],
+  "trendingPlaylists": [
+    { "id": 1, "name": "Trending Playlist...", "curator": "Custom playlists",       "tracks": 34, "bg": "linear-gradient(145deg,#3a0808 0%,#a02020 100%)" },
+    { "id": 2, "name": "Trending Playlist...", "curator": "Custom playlists",       "tracks": 28, "bg": "linear-gradient(145deg,#c8c0b8 0%,#e0d8d0 100%)" },
+    { "id": 3, "name": "Flow Note",            "curator": "Translotiom Playliste",  "tracks": 45, "bg": "linear-gradient(145deg,#181828 0%,#282848 100%)" },
+    { "id": 4, "name": "Midnight Synthwave",   "curator": "Custom playlists",       "tracks": 22, "bg": "linear-gradient(145deg,#0a0a18 0%,#18183a 100%)" }
+  ],
+  "customPlaylists": [
+    { "id": "cp1", "name": "Custom Playlist 1", "tracks": 12 },
+    { "id": "cp2", "name": "Custom Playlist 2", "tracks": 8  },
+    { "id": "cp3", "name": "Custom Playlist 3", "tracks": 15 },
+    { "id": "cp4", "name": "Custom Playlist 4", "tracks": 6  },
+    { "id": "cp5", "name": "Custom Playlist 5", "tracks": 20 },
+    { "id": "cp6", "name": "Custom Playlist 6", "tracks": 11 }
+  ],
+  "currentTrack": {
+    "id": 1,
+    "title": "Track From (Counel)",
+    "artist": "Uisenity Track",
+    "album": "Counel Sessions",
+    "duration": 179,
+    "startAt": 120,
+    "bg": "linear-gradient(135deg,#1a1a1a,#2e2e2e)"
+  }
+}
