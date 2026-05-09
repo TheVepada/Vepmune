@@ -1,40 +1,398 @@
 {
-  "user": { "name": "User Name", "plan": "free", "avatar": "U" },
+  "user": {
+    "name": "Vepada Ram",
+    "plan": "Premium",
+    "avatar": "V",
+    "email": "thevepada@gmail.com",
+    "joinDate": "2026-05-01"
+  },
+  "artists": [
+    {
+      "id": 1,
+      "name": "The Weeknd",
+      "genre": "R&B",
+      "image": "https://thevepada.blob.core.windows.net/vepmune-pics/the Weeknd.jpg",
+      "followers": "75M"
+    },
+    {
+      "id": 2,
+      "name": "Tame Impala",
+      "genre": "Psychedelic Rock",
+      "image": "https://thevepada.blob.core.windows.net/vepmune-pics/tame%20Impala.jpg",
+      "followers": "15M"
+    },
+    {
+      "id": 3,
+      "name": "The 1975",
+      "genre": "Indie Rock",
+      "image": "https://thevepada.blob.core.windows.net/vepmune-pics/the1975.jpg",
+      "followers": "28M"
+    },
+    {
+      "id": 4,
+      "name": "Joji",
+      "genre": "R&B",
+      "image": "https://thevepada.blob.core.windows.net/vepmune-pics/joji.jpg",
+      "followers": "22M"
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "title": "My Dear Melancholy,",
+      "artistId": 1,
+      "artist": "The Weeknd",
+      "releaseDate": "2018-03-30",
+      "year": 2018,
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%238a2be2'/%3E%3Cstop offset='100%25' style='stop-color:%231a0a1a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23g1)' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'%3EMy Dear Melancholy%3C/text%3E%3C/svg%3E",
+      "genre": "R&B",
+      "tracks": 6,
+      "color": "#1a0a1a"
+    },
+    {
+      "id": 2,
+      "title": "Currents",
+      "artistId": 2,
+      "artist": "Tame Impala",
+      "releaseDate": "2015-07-17",
+      "year": 2015,
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cdefs%3E%3ClinearGradient id='g2' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%235a3a7a'/%3E%3Cstop offset='100%25' style='stop-color:%232a1a4a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23g2)' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'%3ECurrents%3C/text%3E%3C/svg%3E",
+      "genre": "Psychedelic Rock",
+      "tracks": 13,
+      "color": "#2a1a4a"
+    },
+    {
+      "id": 3,
+      "title": "Being Funny in a Foreign Language",
+      "artistId": 3,
+      "artist": "The 1975",
+      "releaseDate": "2022-10-14",
+      "year": 2022,
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cdefs%3E%3ClinearGradient id='g3' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%237a4a4a'/%3E%3Cstop offset='100%25' style='stop-color:%234a2a2a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23g3)' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'%3EBeing Funny%3C/text%3E%3C/svg%3E",
+      "genre": "Indie Rock",
+      "tracks": 12,
+      "color": "#4a2a2a"
+    },
+    {
+      "id": 4,
+      "title": "Nectar",
+      "artistId": 4,
+      "artist": "Joji",
+      "releaseDate": "2020-09-25",
+      "year": 2020,
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cdefs%3E%3ClinearGradient id='g4' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%233a5a6a'/%3E%3Cstop offset='100%25' style='stop-color:%231a2a3a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23g4)' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'%3ENectar%3C/text%3E%3C/svg%3E",
+      "genre": "R&B",
+      "tracks": 8,
+      "color": "#1a2a3a"
+    }
+  ],
+  "songs": [
+    {
+      "id": 1,
+      "title": "Call Out My Name",
+      "artist": "The Weeknd",
+      "artistId": 1,
+      "album": "My Dear Melancholy,",
+      "albumId": 1,
+      "duration": 224,
+      "durationFormatted": "3:44",
+      "genre": "R&B",
+      "explicit": true,
+      "plays": 2800000000
+    },
+    {
+      "id": 2,
+      "title": "Try Me",
+      "artist": "The Weeknd",
+      "artistId": 1,
+      "album": "My Dear Melancholy,",
+      "albumId": 1,
+      "duration": 203,
+      "durationFormatted": "3:23",
+      "genre": "R&B",
+      "explicit": true,
+      "plays": 450000000
+    },
+    {
+      "id": 3,
+      "title": "I Was Never There",
+      "artist": "The Weeknd",
+      "artistId": 1,
+      "album": "My Dear Melancholy,",
+      "albumId": 1,
+      "duration": 241,
+      "durationFormatted": "4:01",
+      "genre": "R&B",
+      "explicit": true,
+      "plays": 780000000
+    },
+    {
+      "id": 4,
+      "title": "Let It Happen",
+      "artist": "Tame Impala",
+      "artistId": 2,
+      "album": "Currents",
+      "albumId": 2,
+      "duration": 476,
+      "durationFormatted": "7:56",
+      "genre": "Psychedelic Rock",
+      "explicit": false,
+      "plays": 520000000
+    },
+    {
+      "id": 5,
+      "title": "Eventually",
+      "artist": "Tame Impala",
+      "artistId": 2,
+      "album": "Currents",
+      "albumId": 2,
+      "duration": 356,
+      "durationFormatted": "5:56",
+      "genre": "Psychedelic Rock",
+      "explicit": false,
+      "plays": 380000000
+    },
+    {
+      "id": 6,
+      "title": "The Less I Know The Better",
+      "artist": "Tame Impala",
+      "artistId": 2,
+      "album": "Currents",
+      "albumId": 2,
+      "duration": 216,
+      "durationFormatted": "3:36",
+      "genre": "Psychedelic Rock",
+      "explicit": false,
+      "plays": 890000000
+    },
+    {
+      "id": 7,
+      "title": "Robbers",
+      "artist": "The 1975",
+      "artistId": 3,
+      "album": "Being Funny in a Foreign Language",
+      "albumId": 3,
+      "duration": 298,
+      "durationFormatted": "4:58",
+      "genre": "Indie Rock",
+      "explicit": false,
+      "plays": 640000000
+    },
+    {
+      "id": 8,
+      "title": "About You",
+      "artist": "The 1975",
+      "artistId": 3,
+      "album": "Being Funny in a Foreign Language",
+      "albumId": 3,
+      "duration": 356,
+      "durationFormatted": "5:56",
+      "genre": "Indie Rock",
+      "explicit": false,
+      "plays": 520000000
+    },
+    {
+      "id": 9,
+      "title": "Sanctuary",
+      "artist": "Joji",
+      "artistId": 4,
+      "album": "Nectar",
+      "albumId": 4,
+      "duration": 217,
+      "durationFormatted": "3:37",
+      "genre": "R&B",
+      "explicit": false,
+      "plays": 1200000000
+    },
+    {
+      "id": 10,
+      "title": "Gimme Love",
+      "artist": "Joji",
+      "artistId": 4,
+      "album": "Nectar",
+      "albumId": 4,
+      "duration": 197,
+      "durationFormatted": "3:17",
+      "genre": "R&B",
+      "explicit": false,
+      "plays": 890000000
+    }
+  ],
   "topRecommendations": [
-    { "id": 1, "title": "Dumk Wealr",        "artist": "Redcle",       "duration": "3:24", "bg": "linear-gradient(155deg,#111 0%,#2a2a2a 100%)",          "label": "D" },
-    { "id": 2, "title": "Dawlingota Sans...", "artist": "Toelflums",    "duration": "4:01", "bg": "linear-gradient(155deg,#7a1010 0%,#c0392b 100%)",        "label": "D" },
-    { "id": 3, "title": "Bloaver",            "artist": "The Second",   "duration": "3:55", "bg": "linear-gradient(155deg,#c4a882 0%,#e0cab0 100%)",        "label": "B" },
-    { "id": 4, "title": "Samiracind the",     "artist": "Sleephone",    "duration": "4:18", "bg": "linear-gradient(155deg,#222 0%,#444 100%)",              "label": "S" },
-    { "id": 5, "title": "Date Milly",         "artist": "Doctor",       "duration": "3:42", "bg": "linear-gradient(155deg,#080808 0%,#181818 100%)",        "label": "DP" },
-    { "id": 6, "title": "Yarpa Brdan",        "artist": "Chaii Wenf",   "duration": "5:10", "bg": "linear-gradient(155deg,#181818 0%,#2e2e2e 100%)",        "label": "Y" }
+    {
+      "id": 1,
+      "title": "Call Out My Name",
+      "artist": "The Weeknd",
+      "albumId": 1,
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cdefs%3E%3ClinearGradient id='t1' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%238a2be2'/%3E%3Cstop offset='100%25' style='stop-color:%231a0a1a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23t1)' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'%3ECall Out My Nam%3C/text%3E%3C/svg%3E",
+      "duration": "3:44",
+      "bg": "linear-gradient(155deg, #1a0a1a 0%, #4a1a2a 100%)"
+    },
+    {
+      "id": 4,
+      "title": "Let It Happen",
+      "artist": "Tame Impala",
+      "albumId": 2,
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cdefs%3E%3ClinearGradient id='t2' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%235a3a7a'/%3E%3Cstop offset='100%25' style='stop-color:%232a1a4a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23t2)' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'%3ELet It Happen%3C/text%3E%3C/svg%3E",
+      "duration": "7:56",
+      "bg": "linear-gradient(155deg, #2a1a4a 0%, #5a3a7a 100%)"
+    },
+    {
+      "id": 6,
+      "title": "The Less I Know The Better",
+      "artist": "Tame Impala",
+      "albumId": 2,
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cdefs%3E%3ClinearGradient id='t3' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%235a3a7a'/%3E%3Cstop offset='100%25' style='stop-color:%232a1a4a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23t3)' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'%3EThe Less I Know%3C/text%3E%3C/svg%3E",
+      "duration": "3:36",
+      "bg": "linear-gradient(155deg, #1a3a4a 0%, #3a6a8a 100%)"
+    },
+    {
+      "id": 9,
+      "title": "Sanctuary",
+      "artist": "Joji",
+      "albumId": 4,
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cdefs%3E%3ClinearGradient id='t4' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%233a5a6a'/%3E%3Cstop offset='100%25' style='stop-color:%231a2a3a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23t4)' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'%3ESanctuary%3C/text%3E%3C/svg%3E",
+      "duration": "3:37",
+      "bg": "linear-gradient(155deg, #1a2a3a 0%, #3a5a6a 100%)"
+    },
+    {
+      "id": 7,
+      "title": "Robbers",
+      "artist": "The 1975",
+      "albumId": 3,
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cdefs%3E%3ClinearGradient id='t5' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%237a4a4a'/%3E%3Cstop offset='100%25' style='stop-color:%234a2a2a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23t5)' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'%3ERobbers%3C/text%3E%3C/svg%3E",
+      "duration": "4:58",
+      "bg": "linear-gradient(155deg, #4a2a2a 0%, #7a4a4a 100%)"
+    },
+    {
+      "id": 3,
+      "title": "I Was Never There",
+      "artist": "The Weeknd",
+      "albumId": 1,
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cdefs%3E%3ClinearGradient id='t6' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%238a2be2'/%3E%3Cstop offset='100%25' style='stop-color:%231a0a1a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23t6)' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'%3EI Was Never The%3C/text%3E%3C/svg%3E",
+      "duration": "4:01",
+      "bg": "linear-gradient(155deg, #0a0a1a 0%, #2a0a2a 100%)"
+    }
   ],
   "newReleases": [
-    { "id": 7,  "album": "Newly Released...", "artist": "Catalog data", "year": 2025, "tracks": 12, "bg": "linear-gradient(145deg,#f5c2d0 0%,#e8a0bf 50%,#c070a0 100%)" },
-    { "id": 8,  "album": "Tirilly Roast",     "artist": "Album",        "year": 2025, "tracks": 9,  "bg": "linear-gradient(145deg,#6e0f08 0%,#b03020 55%,#6e1008 100%)" },
-    { "id": 9,  "album": "Jean Noider",       "artist": "Artist",       "year": 2025, "tracks": 10, "bg": "linear-gradient(145deg,#b89050 0%,#d0a860 55%,#907030 100%)" },
-    { "id": 10, "album": "Jan Gron",          "artist": "Artist",       "year": 2025, "tracks": 11, "bg": "linear-gradient(145deg,#104a6a 0%,#1a6a8a 55%,#103a5a 100%)" }
+    {
+      "id": 1,
+      "album": "My Dear Melancholy,",
+      "artist": "The Weeknd",
+      "albumId": 1,
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cdefs%3E%3ClinearGradient id='n1' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%238a2be2'/%3E%3Cstop offset='100%25' style='stop-color:%231a0a1a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23n1)' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'%3EMy Dear Melancholy,%3C/text%3E%3C/svg%3E",
+      "year": 2018,
+      "tracks": 6,
+      "genre": "R&B",
+      "bg": "linear-gradient(145deg, #1a0a1a 0%, #4a1a2a 50%, #2a0a1a 100%)"
+    },
+    {
+      "id": 2,
+      "album": "Nectar",
+      "artist": "Joji",
+      "albumId": 4,
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cdefs%3E%3ClinearGradient id='n2' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%235a3a7a'/%3E%3Cstop offset='100%25' style='stop-color:%232a1a4a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23n2)' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'%3ENectar%3C/text%3E%3C/svg%3E",
+      "year": 2020,
+      "tracks": 8,
+      "genre": "R&B",
+      "bg": "linear-gradient(145deg, #1a2a3a 0%, #3a5a6a 50%, #1a3a4a 100%)"
+    },
+    {
+      "id": 3,
+      "album": "Currents",
+      "artist": "Tame Impala",
+      "albumId": 2,
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cdefs%3E%3ClinearGradient id='n3' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%237a4a4a'/%3E%3Cstop offset='100%25' style='stop-color:%234a2a2a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23n3)' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'%3ECurrents%3C/text%3E%3C/svg%3E",
+      "year": 2015,
+      "tracks": 13,
+      "genre": "Psychedelic Rock",
+      "bg": "linear-gradient(145deg, #2a1a4a 0%, #5a3a7a 50%, #3a1a5a 100%)"
+    },
+    {
+      "id": 4,
+      "album": "Being Funny in a Foreign Language",
+      "artist": "The 1975",
+      "albumId": 3,
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cdefs%3E%3ClinearGradient id='n4' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%233a5a6a'/%3E%3Cstop offset='100%25' style='stop-color:%231a2a3a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23n4)' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'%3EBeing Funny in a For%3C/text%3E%3C/svg%3E",
+      "year": 2022,
+      "tracks": 12,
+      "genre": "Indie Rock",
+      "bg": "linear-gradient(145deg, #4a2a2a 0%, #7a4a4a 50%, #5a2a3a 100%)"
+    }
   ],
   "trendingPlaylists": [
-    { "id": 1, "name": "Trending Playlist...", "curator": "Custom playlists",       "tracks": 34, "bg": "linear-gradient(145deg,#3a0808 0%,#a02020 100%)" },
-    { "id": 2, "name": "Trending Playlist...", "curator": "Custom playlists",       "tracks": 28, "bg": "linear-gradient(145deg,#c8c0b8 0%,#e0d8d0 100%)" },
-    { "id": 3, "name": "Flow Note",            "curator": "Translotiom Playliste",  "tracks": 45, "bg": "linear-gradient(145deg,#181828 0%,#282848 100%)" },
-    { "id": 4, "name": "Midnight Synthwave",   "curator": "Custom playlists",       "tracks": 22, "bg": "linear-gradient(145deg,#0a0a18 0%,#18183a 100%)" }
+    {
+      "id": 1,
+      "name": "Chill R&B Vibes",
+      "curator": "VepMune Editorial",
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cdefs%3E%3ClinearGradient id='p1' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%238a2be2'/%3E%3Cstop offset='100%25' style='stop-color:%231a0a1a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23p1)' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'%3EChill R&B Vibes%3C/text%3E%3C/svg%3E",
+      "tracks": 45,
+      "description": "Smooth R&B tracks to unwind",
+      "bg": "linear-gradient(145deg, #1a0a1a 0%, #4a1a2a 100%)"
+    },
+    {
+      "id": 2,
+      "name": "Psychedelic Journey",
+      "curator": "VepMune Editorial",
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cdefs%3E%3ClinearGradient id='p2' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%235a3a7a'/%3E%3Cstop offset='100%25' style='stop-color:%232a1a4a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23p2)' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'%3EPsychedelic Journe%3C/text%3E%3C/svg%3E",
+      "tracks": 38,
+      "description": "Explore the psychedelic rock universe",
+      "bg": "linear-gradient(145deg, #2a1a4a 0%, #5a3a7a 100%)"
+    },
+    {
+      "id": 3,
+      "name": "Indie Essentials",
+      "curator": "VepMune Editorial",
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cdefs%3E%3ClinearGradient id='p3' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%237a4a4a'/%3E%3Cstop offset='100%25' style='stop-color:%234a2a2a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23p3)' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'%3EIndie Essentials%3C/text%3E%3C/svg%3E",
+      "tracks": 52,
+      "description": "The best indie rock tracks of our time",
+      "bg": "linear-gradient(145deg, #4a2a2a 0%, #7a4a4a 100%)"
+    },
+    {
+      "id": 4,
+      "name": "Late Night Vibes",
+      "curator": "VepMune Editorial",
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cdefs%3E%3ClinearGradient id='p4' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%233a5a6a'/%3E%3Cstop offset='100%25' style='stop-color:%231a2a3a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23p4)' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'%3ELate Night Vibes%3C/text%3E%3C/svg%3E",
+      "tracks": 41,
+      "description": "Perfect for those late night sessions",
+      "bg": "linear-gradient(145deg, #1a2a3a 0%, #3a5a6a 100%)"
+    }
   ],
   "customPlaylists": [
-    { "id": "cp1", "name": "Custom Playlist 1", "tracks": 12 },
-    { "id": "cp2", "name": "Custom Playlist 2", "tracks": 8  },
-    { "id": "cp3", "name": "Custom Playlist 3", "tracks": 15 },
-    { "id": "cp4", "name": "Custom Playlist 4", "tracks": 6  },
-    { "id": "cp5", "name": "Custom Playlist 5", "tracks": 20 },
-    { "id": "cp6", "name": "Custom Playlist 6", "tracks": 11 }
+    {
+      "id": "cp1",
+      "name": "Paroxitene",
+      "createdBy": "Vepada Ram",
+      "creationDate": "2026-05-02",
+      "tracks": 8,
+      "description": "My personal collection"
+    },
+    {
+      "id": "cp2",
+      "name": "Mohomaya",
+      "createdBy": "Tomal Devnath",
+      "creationDate": "2026-05-02",
+      "tracks": 6,
+      "description": "Favorite tracks"
+    },
+    {
+      "id": "cp3",
+      "name": "Otasha",
+      "createdBy": "Farhan Sikder",
+      "creationDate": "2026-05-02",
+      "tracks": 7,
+      "description": "Relaxing music"
+    }
   ],
   "currentTrack": {
     "id": 1,
-    "title": "Track From (Counel)",
-    "artist": "Uisenity Track",
-    "album": "Counel Sessions",
-    "duration": 179,
-    "startAt": 120,
-    "bg": "linear-gradient(135deg,#1a1a1a,#2e2e2e)"
+    "title": "Call Out My Name",
+    "artist": "The Weeknd",
+    "album": "My Dear Melancholy,",
+    "albumId": 1,
+    "duration": 224,
+    "currentTime": 85,
+    "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cdefs%3E%3ClinearGradient id='c1' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%238a2be2'/%3E%3Cstop offset='100%25' style='stop-color:%231a0a1a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23c1)' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='20' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial'%3ECall Out My Name%3C/text%3E%3C/svg%3E",
+    "bg": "linear-gradient(135deg, #1a0a1a 0%, #4a1a2a 100%)"
   }
 }
